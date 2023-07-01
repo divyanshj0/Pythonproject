@@ -1,0 +1,8 @@
+string=input('Enter a string')
+lst=['a','e','i','o','u']
+a=''
+str=string.lower()
+for char in str:
+    if char not in lst:
+        a=a+char
+print(a)
